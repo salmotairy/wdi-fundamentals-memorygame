@@ -11,7 +11,7 @@ console.log("Sorry, try again.");
 }
 }
 var flipCard = function flipCard(cardId) {
-checkForMatch
+checkForMatch ();
 console.log("User flipped " + cards[cardId]);
 cardsInPlay.push('cards[cardId]');
 If (cardsInPlay.length ===2) {
